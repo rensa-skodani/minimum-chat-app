@@ -1,9 +1,17 @@
 # minimum-chat-app
 Laravel 11 と Laravel Reverbを使用して、簡易的なチャットアプリを作成するハンズオン
 
+## イメージ図
 ![](docs/minimum_chat_app.drawio.png)
 
+## 前提
+- VSCode にて DevContaienr を使用し、Dockerコンテナ上での手順としています。
+- VSCode にて [Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack) をインストールしておく必要があります。
+
 ## 手順メモ
+### 0. VSCodeでcloneしたこのプロジェクトを開く
+コマンドパレット ( Win: `Ctrl + Shift + P` or Mac: `Cmd + Shift + P` で開く ) で、 `Reopen in Container` を選択し、でコンテナでプロジェクトを開きなおす。
+
 ### 1. laravelインストール
 ```
 composer create-project laravel/laravel app-base
